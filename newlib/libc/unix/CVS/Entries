@@ -1,0 +1,16 @@
+/Makefile.am/1.9/Mon Feb 23 23:42:02 2009/-ko/Tnewlib-1_18_0
+/Makefile.in/1.23/Tue Oct 20 22:44:24 2009/-ko/Tnewlib-1_18_0
+/basename.c/1.2/Tue Nov 18 21:47:44 2008//Tnewlib-1_18_0
+/dirname.c/1.2/Tue Nov 18 21:47:44 2008//Tnewlib-1_18_0
+/getcwd.c/1.4/Tue Nov 18 21:47:44 2008/-ko/Tnewlib-1_18_0
+/getlogin.c/1.4/Tue Nov 18 21:47:44 2008/-ko/Tnewlib-1_18_0
+/getpass.c/1.6/Tue Nov 18 22:40:40 2008/-ko/Tnewlib-1_18_0
+/getpwent.c/1.4/Tue Nov 18 21:47:44 2008/-ko/Tnewlib-1_18_0
+/getut.c/1.5/Tue Nov 18 21:47:44 2008/-ko/Tnewlib-1_18_0
+/pread.c/1.3/Tue Nov 18 21:47:44 2008//Tnewlib-1_18_0
+/pwrite.c/1.3/Tue Nov 18 21:47:44 2008//Tnewlib-1_18_0
+/sigset.c/1.4/Tue Nov 18 21:47:44 2008/-ko/Tnewlib-1_18_0
+/ttyname.c/1.7/Mon Feb 23 23:42:02 2009/-ko/Tnewlib-1_18_0
+/ttyname.h/1.1/Mon Feb 23 23:42:03 2009//Tnewlib-1_18_0
+/ttyname_r.c/1.1/Mon Feb 23 23:42:03 2009//Tnewlib-1_18_0
+D

@@ -1,0 +1,12 @@
+/Makefile.am/1.7/Thu May 24 17:33:35 2007/-ko/Tnewlib-1_18_0
+/Makefile.in/1.18/Tue Oct 20 22:43:59 2009/-ko/Tnewlib-1_18_0
+/aclocal.m4/1.23/Tue Oct 20 22:43:59 2009/-ko/Tnewlib-1_18_0
+/configure/1.29/Thu Dec 17 20:41:31 2009/-ko/Tnewlib-1_18_0
+/configure.in/1.2/Thu Apr 13 19:56:25 2006/-ko/Tnewlib-1_18_0
+/m68kasm.h/1.1/Mon Jan  7 18:59:45 2008//Tnewlib-1_18_0
+/memcpy.S/1.5/Mon Dec 14 20:50:53 2009//Tnewlib-1_18_0
+/memset.S/1.4/Tue Jan  8 21:48:06 2008//Tnewlib-1_18_0
+/setjmp.S/1.2/Mon Jan  7 18:59:45 2008/-ko/Tnewlib-1_18_0
+/strcpy.c/1.1.1.1/Thu Feb 17 19:39:47 2000/-ko/Tnewlib-1_18_0
+/strlen.c/1.1.1.1/Thu Feb 17 19:39:47 2000/-ko/Tnewlib-1_18_0
+D

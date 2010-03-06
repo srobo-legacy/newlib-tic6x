@@ -1,0 +1,18 @@
+/Makefile.in/1.2/Mon Jun 28 22:42:20 2004//Tnewlib-1_18_0
+/README/1.1/Fri Mar 17 22:48:50 2000//Tnewlib-1_18_0
+/aclocal.m4/1.1/Wed Apr 19 19:44:04 2006//Tnewlib-1_18_0
+/checksum.c/1.1/Fri Mar 17 22:48:50 2000//Tnewlib-1_18_0
+/configure/1.5/Fri Apr  4 21:51:59 2008//Tnewlib-1_18_0
+/configure.in/1.2/Wed Apr 19 19:44:04 2006//Tnewlib-1_18_0
+/crt0.s/1.1/Fri Mar 17 22:48:50 2000//Tnewlib-1_18_0
+/debugger.h/1.1/Fri Mar 17 22:48:50 2000//Tnewlib-1_18_0
+/debugger.s/1.1/Fri Mar 17 22:48:50 2000//Tnewlib-1_18_0
+/diagnose.h/1.1/Fri Mar 17 22:48:50 2000//Tnewlib-1_18_0
+/hppa-defs.h/1.1/Fri Mar 17 22:48:50 2000//Tnewlib-1_18_0
+/hppa.ld/1.1/Fri Mar 17 22:48:50 2000//Tnewlib-1_18_0
+/io.c/1.1/Fri Mar 17 22:48:50 2000//Tnewlib-1_18_0
+/iva_table.h/1.1/Fri Mar 17 22:48:50 2000//Tnewlib-1_18_0
+/iva_table.s/1.1/Fri Mar 17 22:48:50 2000//Tnewlib-1_18_0
+/pa_stub.c/1.1/Fri Mar 17 22:48:50 2000//Tnewlib-1_18_0
+/test.c/1.1/Fri Mar 17 22:48:50 2000//Tnewlib-1_18_0
+D

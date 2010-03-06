@@ -1,0 +1,14 @@
+/Makefile.am/1.4/Thu May 24 17:33:36 2007/-ko/Tnewlib-1_18_0
+/Makefile.in/1.15/Tue Oct 20 22:44:06 2009/-ko/Tnewlib-1_18_0
+/aclocal.m4/1.23/Tue Oct 20 22:44:06 2009/-ko/Tnewlib-1_18_0
+/cmpsi.c/1.1.1.1/Thu Feb 17 19:39:47 2000/-ko/Tnewlib-1_18_0
+/configure/1.29/Thu Dec 17 20:41:35 2009/-ko/Tnewlib-1_18_0
+/configure.in/1.2/Thu Apr 13 19:56:26 2006/-ko/Tnewlib-1_18_0
+/divsi3.c/1.1.1.1/Thu Feb 17 19:39:47 2000/-ko/Tnewlib-1_18_0
+/lshrhi.S/1.1/Mon May  1 22:01:02 2006//Tnewlib-1_18_0
+/mulsi3.c/1.1.1.1/Thu Feb 17 19:39:47 2000/-ko/Tnewlib-1_18_0
+/sdivhi3.S/1.1/Mon May  1 22:01:02 2006//Tnewlib-1_18_0
+/smulhi3.S/1.1/Mon May  1 22:01:02 2006//Tnewlib-1_18_0
+/udivhi3.S/1.1/Mon May  1 22:01:02 2006//Tnewlib-1_18_0
+/umodhi3.S/1.1/Mon May  1 22:01:02 2006//Tnewlib-1_18_0
+D

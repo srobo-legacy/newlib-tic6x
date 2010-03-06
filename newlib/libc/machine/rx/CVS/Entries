@@ -1,0 +1,19 @@
+/Makefile.am/1.1/Mon Oct 26 10:05:23 2009//Tnewlib-1_18_0
+/Makefile.in/1.1/Mon Oct 26 10:05:23 2009//Tnewlib-1_18_0
+/aclocal.m4/1.1/Mon Oct 26 10:05:23 2009//Tnewlib-1_18_0
+/configure/1.1/Mon Oct 26 10:05:23 2009//Tnewlib-1_18_0
+/configure.in/1.1/Mon Oct 26 10:05:23 2009//Tnewlib-1_18_0
+/memchr.S/1.1/Mon Oct 26 10:05:23 2009//Tnewlib-1_18_0
+/memcpy.S/1.1/Mon Oct 26 10:05:23 2009//Tnewlib-1_18_0
+/memmove.S/1.1/Mon Oct 26 10:05:23 2009//Tnewlib-1_18_0
+/mempcpy.S/1.1/Mon Oct 26 10:05:23 2009//Tnewlib-1_18_0
+/memset.S/1.1/Mon Oct 26 10:05:23 2009//Tnewlib-1_18_0
+/setjmp.S/1.1/Mon Oct 26 10:05:23 2009//Tnewlib-1_18_0
+/strcat.S/1.1/Mon Oct 26 10:05:23 2009//Tnewlib-1_18_0
+/strcmp.S/1.1/Mon Oct 26 10:05:23 2009//Tnewlib-1_18_0
+/strcpy.S/1.1/Mon Oct 26 10:05:23 2009//Tnewlib-1_18_0
+/strlen.S/1.1/Mon Oct 26 10:05:23 2009//Tnewlib-1_18_0
+/strncat.S/1.2/Fri Nov 20 12:54:29 2009//Tnewlib-1_18_0
+/strncmp.S/1.1/Mon Oct 26 10:05:23 2009//Tnewlib-1_18_0
+/strncpy.S/1.1/Mon Oct 26 10:05:23 2009//Tnewlib-1_18_0
+D

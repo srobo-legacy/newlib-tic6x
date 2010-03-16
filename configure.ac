@@ -627,6 +627,9 @@ case "${target}" in
   c54x*-*-* | tic54x-*-*)
     noconfigdirs="$noconfigdirs target-libstdc++-v3 target-libgloss ${libgcj} gcc gdb newlib"
     ;;
+  c64x*-*-* | tic64x-*-*)
+    noconfigdirs="$noconfigdirs target-libstdc++-v3 target-libgloss ${libgcj} gcc gdb newlib"
+    ;;
   cr16-*-*)
     noconfigdirs="$noconfigdirs ${libgcj} gdb"
     ;;

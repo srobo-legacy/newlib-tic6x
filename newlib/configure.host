@@ -248,6 +248,9 @@ case "${host_cpu}" in
   tic4x|c4x)
 	machine_dir=tic4x
 	;;
+  tic64x|c64x)
+	machine_dir=tic64x
+	;;
   tic80*)
 	machine_dir=tic80
 	;;

@@ -1082,8 +1082,8 @@ case $basic_machine in
 		os=-coff
 		;;
 	tic64x | c64x*)
-		basic_machine=tic64x-unknown
-		os=-coff
+		basic_machine=tic64x-coff
+		os=-linux
 		;;
 	tile*)
 		basic_machine=tile-unknown

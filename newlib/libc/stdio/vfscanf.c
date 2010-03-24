@@ -466,7 +466,9 @@ _DEFUN(__SVFSCANF_R, (rptr, fp, fmt0, ap),
   int *ip;
 #ifdef FLOATING_POINT
   float *flp;
+#if 0
   _LONG_DOUBLE *ldp;
+#endif
   double *dp;
 #endif
   long *lp;
@@ -1559,11 +1561,13 @@ _DEFUN(__SVFSCANF_R, (rptr, fp, fmt0, ap),
 		  dp = GET_ARG (N, ap, double *);
 		  *dp = res;
 		}
+#if 0
 	      else if (flags & LONGDBL)
 		{
 		  ldp = GET_ARG (N, ap, _LONG_DOUBLE *);
 		  *ldp = QUAD_RES;
 		}
+#endif
 	      else
 		{
 		  flp = GET_ARG (N, ap, float *);

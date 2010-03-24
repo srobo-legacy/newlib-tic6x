@@ -249,6 +249,7 @@ case "${host_cpu}" in
 	machine_dir=tic4x
 	;;
   tic64x|c64x)
+	default_newlib_io_long_double="no"
 	machine_dir=tic64x
 	;;
   tic80*)

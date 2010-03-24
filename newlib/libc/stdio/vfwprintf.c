@@ -287,7 +287,9 @@ union arg_val
   u_long val_u_long;
   float val_float;
   double val_double;
+#if 0
   _LONG_DOUBLE val__LONG_DOUBLE;
+#endif
   int_ptr_t val_int_ptr_t;
   short_ptr_t val_short_ptr_t;
   long_ptr_t val_long_ptr_t;
@@ -831,11 +833,15 @@ reswitch:	switch (ch) {
 		case L'g':
 		case L'G':
 # ifdef _NO_LONGDBL
+#if 0
 			if (flags & LONGDBL) {
 				_fpvalue = (double) GET_ARG (N, ap, _LONG_DOUBLE);
 			} else {
+#endif
 				_fpvalue = GET_ARG (N, ap, double);
+#if 0
 			}
+#endif
 
 			/* do this before tricky precision changes
 
@@ -1688,9 +1694,11 @@ _DEFUN(get_arg, (data, n, fmt, ap, numargs_p, args, arg_type, last_fmt),
 		      case DOUBLE:
 			args[numargs++].val_double = va_arg (*ap, double);
 			break;
+#if 0
 		      case LONG_DOUBLE:
 			args[numargs++].val__LONG_DOUBLE = va_arg (*ap, _LONG_DOUBLE);
 			break;
+#endif
 		      }
 		  }
 	      }
@@ -1756,9 +1764,11 @@ _DEFUN(get_arg, (data, n, fmt, ap, numargs_p, args, arg_type, last_fmt),
 	case DOUBLE:
 	  args[numargs++].val_double = va_arg (*ap, double);
 	  break;
+#if 0
 	case LONG_DOUBLE:
 	  args[numargs++].val__LONG_DOUBLE = va_arg (*ap, _LONG_DOUBLE);
 	  break;
+#endif
 	case WIDE_CHAR:
 	  args[numargs++].val_wint_t = va_arg (*ap, wint_t);
 	  break;

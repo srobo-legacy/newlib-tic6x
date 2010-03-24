@@ -161,10 +161,13 @@ C99, POSIX-1.2008
 /* Currently a test is made to see if long double processing is warranted.
    This could be changed in the future should the _ldtoa_r code be
    preferred over _dtoa_r.  */
+/* XXX jmorse - DO NOT WANT */
 #define _NO_LONGDBL
+#if 0
 #if defined _WANT_IO_LONG_DOUBLE && (LDBL_MANT_DIG > DBL_MANT_DIG)
 #undef _NO_LONGDBL
 extern _LONG_DOUBLE _wcstold_r _PARAMS((wchar_t *s, wchar_t **sptr));
+#endif
 #endif
 
 #include "floatio.h"
@@ -406,7 +409,9 @@ _DEFUN(__SVFWSCANF_R, (rptr, fp, fmt0, ap),
   int *ip;
 #ifdef FLOATING_POINT
   float *flp;
+#if 0 /* jmorse */
   _LONG_DOUBLE *ldp;
+#endif
   double *dp;
 #endif
   long *lp;
@@ -1417,11 +1422,13 @@ _DEFUN(__SVFWSCANF_R, (rptr, fp, fmt0, ap),
 		  dp = GET_ARG (N, ap, double *);
 		  *dp = res;
 		}
+#if 0 /* jmorse */
 	      else if (flags & LONGDBL)
 		{
 		  ldp = GET_ARG (N, ap, _LONG_DOUBLE *);
 		  *ldp = QUAD_RES;
 		}
+#endif
 	      else
 		{
 		  flp = GET_ARG (N, ap, float *);

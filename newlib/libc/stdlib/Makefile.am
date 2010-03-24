@@ -33,7 +33,6 @@ GENERAL_SOURCES = \
 	getenv_r.c	\
 	labs.c 		\
 	ldiv.c  	\
-	ldtoa.c		\
 	malloc.c  	\
 	mblen.c		\
 	mblen_r.c	\
@@ -275,7 +274,6 @@ doc: $(CHEWOUT_FILES)
 CLEANFILES = $(CHEWOUT_FILES) *.ref
 
 $(lpfx)dtoa.$(oext): dtoa.c mprec.h
-$(lpfx)ldtoa.$(oext): ldtoa.c mprec.h
 $(lpfx)ecvtbuf.$(oext): ecvtbuf.c mprec.h
 $(lpfx)mbtowc_r.$(oext): mbtowc_r.c mbctype.h
 	$(LIB_COMPILE) -c -fshort-enums $(srcdir)/mbtowc_r.c -o $@

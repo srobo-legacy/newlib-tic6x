@@ -78,7 +78,7 @@ am__objects_2 = lib_a-__adjust.$(OBJEXT) lib_a-__atexit.$(OBJEXT) \
 	lib_a-gdtoa-gethex.$(OBJEXT) lib_a-gdtoa-hexnan.$(OBJEXT) \
 	lib_a-getenv.$(OBJEXT) lib_a-getenv_r.$(OBJEXT) \
 	lib_a-labs.$(OBJEXT) lib_a-ldiv.$(OBJEXT) \
-	lib_a-ldtoa.$(OBJEXT) lib_a-malloc.$(OBJEXT) \
+	lib_a-malloc.$(OBJEXT) \
 	lib_a-mblen.$(OBJEXT) lib_a-mblen_r.$(OBJEXT) \
 	lib_a-mbstowcs.$(OBJEXT) lib_a-mbstowcs_r.$(OBJEXT) \
 	lib_a-mbtowc.$(OBJEXT) lib_a-mbtowc_r.$(OBJEXT) \
@@ -135,7 +135,7 @@ am__objects_9 = __adjust.lo __atexit.lo __call_atexit.lo __exp10.lo \
 	atof.lo atoff.lo atoi.lo atol.lo calloc.lo div.lo dtoa.lo \
 	dtoastub.lo environ.lo envlock.lo eprintf.lo exit.lo \
 	gdtoa-gethex.lo gdtoa-hexnan.lo getenv.lo getenv_r.lo labs.lo \
-	ldiv.lo ldtoa.lo malloc.lo mblen.lo mblen_r.lo mbstowcs.lo \
+	ldiv.lo malloc.lo mblen.lo mblen_r.lo mbstowcs.lo \
 	mbstowcs_r.lo mbtowc.lo mbtowc_r.lo mlock.lo mprec.lo \
 	mstats.lo rand.lo rand_r.lo realloc.lo reallocf.lo \
 	sb_charsets.lo strtod.lo strtol.lo strtoul.lo wcstod.lo \
@@ -329,7 +329,7 @@ GENERAL_SOURCES = __adjust.c __atexit.c __call_atexit.c __exp10.c \
 	__ten_mu.c _Exit.c abort.c abs.c assert.c atexit.c atof.c \
 	atoff.c atoi.c atol.c calloc.c div.c dtoa.c dtoastub.c \
 	environ.c envlock.c eprintf.c exit.c gdtoa-gethex.c \
-	gdtoa-hexnan.c getenv.c getenv_r.c labs.c ldiv.c ldtoa.c \
+	gdtoa-hexnan.c getenv.c getenv_r.c labs.c ldiv.c \
 	malloc.c mblen.c mblen_r.c mbstowcs.c mbstowcs_r.c mbtowc.c \
 	mbtowc_r.c mlock.c mprec.c mstats.c rand.c rand_r.c realloc.c \
 	reallocf.c sb_charsets.c strtod.c strtol.c strtoul.c wcstod.c \
@@ -714,12 +714,6 @@ lib_a-ldiv.o: ldiv.c
 
 lib_a-ldiv.obj: ldiv.c
 	$(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(lib_a_CFLAGS) $(CFLAGS) -c -o lib_a-ldiv.obj `if test -f 'ldiv.c'; then $(CYGPATH_W) 'ldiv.c'; else $(CYGPATH_W) '$(srcdir)/ldiv.c'; fi`
-
-lib_a-ldtoa.o: ldtoa.c
-	$(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(lib_a_CFLAGS) $(CFLAGS) -c -o lib_a-ldtoa.o `test -f 'ldtoa.c' || echo '$(srcdir)/'`ldtoa.c
-
-lib_a-ldtoa.obj: ldtoa.c
-	$(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(lib_a_CFLAGS) $(CFLAGS) -c -o lib_a-ldtoa.obj `if test -f 'ldtoa.c'; then $(CYGPATH_W) 'ldtoa.c'; else $(CYGPATH_W) '$(srcdir)/ldtoa.c'; fi`
 
 lib_a-malloc.o: malloc.c
 	$(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(lib_a_CFLAGS) $(CFLAGS) -c -o lib_a-malloc.o `test -f 'malloc.c' || echo '$(srcdir)/'`malloc.c
@@ -1400,7 +1394,6 @@ doc: $(CHEWOUT_FILES)
 	cat $(srcdir)/stdlib.tex >> $(TARGETDOC)
 
 $(lpfx)dtoa.$(oext): dtoa.c mprec.h
-$(lpfx)ldtoa.$(oext): ldtoa.c mprec.h
 $(lpfx)ecvtbuf.$(oext): ecvtbuf.c mprec.h
 $(lpfx)mbtowc_r.$(oext): mbtowc_r.c mbctype.h
 	$(LIB_COMPILE) -c -fshort-enums $(srcdir)/mbtowc_r.c -o $@

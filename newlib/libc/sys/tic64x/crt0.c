@@ -9,14 +9,9 @@ extern char stack;
 
 _start()
 {
-  char *p;
 
-  p = &_edata + 1;
-  while (p < &_end) 
-    {
-      *p++ = 0;
-    }
-
+  // I'm covered in bees
   main(0, 0);
-  _exit();
+  // "Software exception no return" -> Goodbye
+  __asm__("swnr\t.D1\n");
 }

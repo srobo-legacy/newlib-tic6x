@@ -356,6 +356,8 @@
 #endif
 
 #ifdef __TIC64X__
+/* Round to nearest. Define here because clang is having a hissy fit */
+#define Flt_Rounds 1
 #define __IEEE_LITTLE_ENDIAN
 #endif
 

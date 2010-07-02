@@ -1,17 +1,11 @@
-/* In what appears to be a long line of tradition, this is a placeholder until
- * I can be bothered to work out what goes here */
+/* There is in fact, no main function for tic64x; or at least not on dspbridge
+ * spawned programs, so I'm not going to put anything here. If this library
+ * is ever used in firmware that makes itself to a standalone processor, then
+ * this'll have to be changed for environmental setup and the like */
 
-extern int main(int argc, char **argv);
-
-extern char _edata;
-extern char _end;
-extern char stack;
-
+void
 _start()
 {
 
-  // I'm covered in bees
-  main(0, 0);
-  // "Software exception no return" -> Goodbye
-  __asm__("swnr\t.D1\n");
+	return;
 }
